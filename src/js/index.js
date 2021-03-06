@@ -9,7 +9,30 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
-
+import { Jumbotron } from "./component/jumbotron.js";
+import { Navbar } from "./component/navbar.js";
+import { Card } from "./component/card.js";
+import { Footer } from "./component/footer.js";
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+
+export function Padre() {
+	return (
+		<div>
+			<div>
+				<Navbar />
+				<div className="container">
+					<Jumbotron />
+					<div className="row">
+						<Card />
+						<Card />
+						<Card />
+						<Card />
+					</div>
+				</div>
+			</div>
+			<Footer />
+		</div>
+	);
+}
+//reactdomrender es una funcion que recibe 2 parametros (que quiero mostrar, donde quiero que se muestre)
+ReactDOM.render(<Padre />, document.querySelector("#app"));
