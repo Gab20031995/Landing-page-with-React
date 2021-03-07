@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "bootstrap";
 
 export function Navbar() {
 	return (
