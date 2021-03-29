@@ -23,10 +23,10 @@ export function Padre() {
 				<div className="container">
 					<Jumbotron />
 					<div className="row">
-						<Card text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
-						<Card text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form." />
-						<Card text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
-						<Card text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form." />
+						<Card text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at it." />
+						<Card text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some." />
+						<Card text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at it." />
+						<Card text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some." />
 					</div>
 				</div>
 			</div>
